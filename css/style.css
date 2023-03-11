@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 100%px;
+    height: 100%;
+
+
+
+
+    background-color: rgb(209, 208, 205);
+}
+.logo{
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    
+}
+header{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 34px;
+    letter-spacing: 2px;
+}
+header ul li {
+    display: inline-block;
+    float: right;
+    flex-direction: column-reverse;
+    padding: 4px;
+    margin-right: 2px;
+    
+    color: yellow;
+    
+}
+a{
+    text-decoration: none;
+    color: #c7c7c7;}
+
+.nav{
+    margin-right: 24px;
+}
+
+
+header ul li:hover {
+    background-color: #1f1f1f;
+    border-radius: 4px;
+    height: 24px;
+    color: #cecece;
+    
+}
+.conteudo{
+    width: 100%;
+    height: 920px;
+    background-color: pink;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.conteudo1 {
+    border: 1px solid red;
+    background-image: url(/images/carro1.jpg);
+}
+.conteudo2{
+    border: 1px solid #00ff00;
+    background-image: url(/images/praia.jpg);
+}
+
+.conteudo3{
+    border: 1px solid #4c00ff;
+    background-image: url(/images/avião.jpg);
+    
+    
+}
+
+
+.botao{
+    
+    margin: 50px auto;
+    background-color: #7ed60c;
+    box-shadow: 2px 3px 4px 1px  rgba(20, 19, 9, 0.849);
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    
+    width: 150px;
+    height: 30px;
+}
+.txt .botao a{
+    margin-left: 30%;
+}
+.txt{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    margin-right:200px;
+    float: right;
+    color: white;
+    width: 500px;
+    height: 550px;
+    background-color: rgba(89, 92, 54, 0.281);
+    box-shadow: 1px 1px 4px 1px black;
+    border-radius: 50px 50px 10px 10px;
+    text-shadow: 3px 1px 2px #000000f3;
+}
+.txt h1{
+    text-shadow: 4px 4px 3px black;
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.txt p{
+    text-align: justify;
+    text-shadow: 3px 1px 2px #000000f3;
+}
+.txt2 .botao{
+    background-color: #006eff;
+}
+
+.txt2{
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+    background-color: #00c3ff27;
+}
+.txt3{
+    background-color: #f3f3f336;
+}
+
+
